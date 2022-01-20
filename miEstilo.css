@@ -11,8 +11,8 @@
     
 }
 .leyenda-contacto{
-    background-color: #212529;
-    color: white    ;
+    background-color: #525355;
+    color: white;
     padding: 10px;
     max-width: auto;
     
@@ -98,5 +98,16 @@
 .corbata{
     margin: 20% 2% 5% 0%;
 }
-
+.fondo-carrousel{
+    background: white !important;
+}
+.fondo{
+   background:#525355 ;
+}
+.texto-corte{
+    background:#525355 ;
+}
+.cuadro-busqueda{
+    border: 1px solid black;
+}
 /* No CSS *//*# sourceMappingURL=miEstilo.css.map */
