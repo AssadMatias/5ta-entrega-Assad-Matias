@@ -1,0 +1,72 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.body_formulario_titulo_datos{
+    background-color:#212529 ;
+    display: flex   ;
+    justify-content:center;
+    gap: 20px;
+    
+    
+}
+.leyenda-contacto{
+    background-color: #212529;
+    color: white    ;
+    padding: 10px;
+    max-width: auto;
+    
+}
+.formulario_nombre{
+    display: grid;
+    color: white;
+}
+.formulario_estadocivil{
+    display:grid;
+    color: white;
+}
+.formulario_mail{
+    display:grid;
+    color: white;
+}
+.formulario_comentario{
+    display:grid;
+    color: white;
+    margin: 7% 0% -10% 0%;
+}
+.foto-aside{
+    height: 30rem;
+    margin-left: auto;
+    display:grid;
+}
+.foto2{
+    width: 24%;
+    height: 5%;
+    margin: 8% 0% 0% 10%;
+    border-radius: 0.30em;
+}
+.foto1{
+    width: 30%;
+    height: 5%;
+    margin: 11% 4% 0% 0%;
+}
+.large{
+    width: 136% !important;
+    border-radius: 0.20em !important;
+}
+.direccion{
+    left: 24% !important;
+}
+.ancho-boton{
+    width: 73%;
+}
+.borrar{
+    margin-top: 10%
+}
+.i-insta{
+    margin-top: -22%;
+    margin: 0% 0% 0% 41%;
+}
+
+
+/* No CSS *//*# sourceMappingURL=miEstilo.css.map */
