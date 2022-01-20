@@ -44,11 +44,13 @@
     height: 5%;
     margin: 8% 0% 0% 10%;
     border-radius: 0.30em;
+    box-shadow: 5px 5px #3f3c3c;
 }
 .foto1{
     width: 30%;
     height: 5%;
     margin: 11% 4% 0% 0%;
+    box-shadow: 5px 5px #3f3c3c;
 }
 .large{
     width: 136% !important;
