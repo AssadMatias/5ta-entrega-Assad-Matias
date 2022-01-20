@@ -67,12 +67,7 @@
     margin-top: -22%;
     margin: 0% 0% 0% 41%;
 }
-.contacto-header{
-    margin-left: 60%;
-}
-.trabajos-header{
-    margin-left: 78%;
-}
+    
 .texto-corte{
     background-color:#212529 ;
     color: white;
@@ -101,4 +96,5 @@
 .corbata{
     margin: 20% 2% 5% 0%;
 }
+
 /* No CSS *//*# sourceMappingURL=miEstilo.css.map */
