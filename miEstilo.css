@@ -42,7 +42,7 @@
 .foto2{
     width: 24%;
     height: 5%;
-    margin: 8% 0% 0% 10%;
+    margin: 5% 0% 7% 12%;
     border-radius: 0.30em;
     box-shadow: 5px 5px #3f3c3c;
 }
@@ -80,7 +80,7 @@
     display: flex;   
 }
 .carta-2{
-    margin: -31% 0% 9% 42%;
+    margin: 5% 0% 7% 12%
 
 }
 .carta-3{
@@ -110,4 +110,6 @@
 .cuadro-busqueda{
     border: 1px solid black;
 }
+
+
 /* No CSS *//*# sourceMappingURL=miEstilo.css.map */
