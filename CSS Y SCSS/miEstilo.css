@@ -1,6 +1,7 @@
 *{
     font-family: 'Source Sans Pro', sans-serif;
     
+
 }
 .body_formulario_titulo_datos{
     background-color:#212529 ;
@@ -9,6 +10,9 @@
     gap: 20px;
     
     
+}
+.navegador{
+    box-shadow: 5px -3px 8px 10px #888888;
 }
 .leyenda-contacto{
     background-color: #525355;
@@ -44,13 +48,13 @@
     height: 5%;
     margin: 5% 0% 7% 12%;
     border-radius: 0.30em;
-    box-shadow: 5px 5px #3f3c3c;
+    box-shadow: 5px 5px #7e7979;
 }
 .foto1{
     width: 30%;
     height: 5%;
     margin: 11% 4% 0% 0%;
-    box-shadow: 5px 5px #3f3c3c;
+
 }
 .large{
     width: 136% !important;
@@ -75,34 +79,53 @@
     color: white;
     
 }
-.carta-1{
-    margin-left: 11%;
-    display: flex;   
+.foto-index{
+    width: 31%;
+    box-shadow: 5px 10px 8px 10px #888888;
+    
 }
-.carta-2{
-    margin: -30% 3% 20% 37%;
+.foto-mujer{
+    width: 38%;
+    margin: 0% 0% 0% -7%;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+.container-1{
+    display: flex;
+    gap: 2%;
+    margin: 0% 19% 0% 9%;
+    
 
 }
-.carta-3{
-    margin: -49% 0% 30% 79%;
+.foto-corbata{
+    width: 31%;
+    margin: 0% 0% 0% -3%;
+    
+    
+    box-shadow: 5px 10px 8px 10px #888888;
 }
-.carta-4{
-    margin: -18% 7% -8% 11%;
+.container-2{
+    display: flex;
+    gap: 2%;
+    margin: 0% 29% 0% 13%;
+
 }
-.carta-5{
-    margin: -29% 1% 1% 42%;
+.container-3{
+    display: flex;
+    gap: 2%;
+    margin: 0% 17% 0% 11%;
 }
-.carta-6{
-    margin: -33% 1% 1% 80%;
+
+.container-img{
+    gap: 2%;
 }
 .corbata{
     margin: 20% 2% 5% 0%;
 }
 .fondo-carrousel{
-    background: white !important;
+    background: rgb(255, 255, 255)!important;
 }
 .fondo{
-   background:#525355 ;
+   background:rgb(255, 255, 255);
 }
 .texto-corte{
     background:#525355 ;
@@ -110,6 +133,19 @@
 .cuadro-busqueda{
     border: 1px solid black;
 }
-
+.descripcion{
+    font-size: 20px;
+}
+.descripcion-2{
+    font-size: 20px;
+    margin: 0% 0% 0% 7%;
+}
+.descripcion-3{
+    margin: 0% 0% 0% 3%;
+    font-size: 20px;
+}
+.titulo-corbata{
+    width: 89%;
+}
 
 /* No CSS *//*# sourceMappingURL=miEstilo.css.map */
