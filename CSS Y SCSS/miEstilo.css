@@ -8,8 +8,6 @@
     display: flex   ;
     justify-content:center;
     gap: 20px;
-    
-    
 }
 .navegador{
     box-shadow: 5px -3px 8px 10px #888888;
@@ -19,7 +17,6 @@
     color: white;
     padding: 10px;
     max-width: auto;
-    
 }
 .formulario_nombre{
     display: grid;
@@ -48,13 +45,13 @@
     height: 5%;
     margin: 5% 0% 7% 12%;
     border-radius: 0.30em;
-    box-shadow: 5px 5px #7e7979;
+    box-shadow: 5px 10px 8px 10px #888888;
 }
 .foto1{
     width: 30%;
     height: 5%;
-    margin: 11% 4% 0% 0%;
-
+    box-shadow: 5px 10px 8px 10px #888888;
+    margin: 5% 6% 0% 0%
 }
 .large{
     width: 136% !important;
@@ -77,12 +74,10 @@
 .texto-corte{
     background-color:#212529 ;
     color: white;
-    
 }
 .foto-index{
     width: 31%;
-    box-shadow: 5px 10px 8px 10px #888888;
-    
+    box-shadow: 5px 10px 8px 10px #888888;    
 }
 .foto-mujer{
     width: 38%;
@@ -91,10 +86,8 @@
 }
 .container-1{
     display: flex;
-    gap: 2%;
+    gap: 8%;
     margin: 0% 19% 0% 9%;
-    
-
 }
 .foto-corbata{
     width: 31%;
@@ -135,6 +128,7 @@
 }
 .descripcion{
     font-size: 20px;
+
 }
 .descripcion-2{
     font-size: 20px;
@@ -146,6 +140,40 @@
 }
 .titulo-corbata{
     width: 89%;
+}
+@media  (max-width: 768px) {
+    .foto-index{
+    height: 50%;
+    width: 50%;
+}
+.titulo-obrero{
+    display: block;
+    
+    
+}
+.descripcion{
+    margin: 85% 0% 30% -80%
+}
+.foto-mujer{
+    height: 50%;
+    width: 70%;
+}
+.descripcion-2{
+    margin:118% 6% 33% -88%;
+}
+.titulo-mujer{
+    margin-left: 102%;
+}
+.foto-corbata{
+    height: 50%;
+    width: 50%;
+   
+}
+.descripcion-3{
+    margin:90% 6% 33% -72%;
+}
+.titulo-corbata{
+
 }
 
 /* No CSS *//*# sourceMappingURL=miEstilo.css.map */
