@@ -164,8 +164,28 @@
     background-image: url(../Fotos\ obras/corbateverdesinmarco.jpg);
     background-size: cover;
 }
+.item-5{
+    background-image: url(../Fotos\ obras/construccion.jpg);
+    background-size: cover;
+}
+.item-6{
+    background-image: url(../Fotos\ obras/pareja.jpg);
+    background-size: cover;
+}
+.item-7{
+    background-image: url(../Fotos\ obras/escultura.jpg);
+    background-size: cover;
+    
+}
+/* Forma de las casillas */
 .tall{
     grid-row: span 2;
+}
+.wide{
+    grid-column: span 4;
+}
+.tallx2{
+    grid-row: span 4;
 }
 
     
