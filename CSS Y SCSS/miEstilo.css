@@ -1,6 +1,7 @@
 *{
     font-family: 'Source Sans Pro', sans-serif;
-    
+    box-sizing: border-box;
+    margin: 0;
 
 }
 .body_formulario_titulo_datos{
@@ -141,6 +142,49 @@
 .titulo-corbata{
     width: 89%;
 }
+/* OBRAS */
+
+    
+
+.fotos-galeria{
+   width: 100%;
+   gap: 5px;
+}
+
+.escultura-1{
+    width: 25%;
+    width: 14%;
+}
+.estatua{
+    width: 25%;
+    margin: 0% 0% 0% 25%
+}
+.toro{
+    width: 25%;
+}
+.pescador{
+    width: 25%;
+}
+
+
+.grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+    background-color: aquamarine;
+    border: solid 1px white ;
+    
+}
+.grid-conteiner{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) ;
+    grid-auto-rows:minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+    margin: 0% 20% 0% 20%;
+}
 @media  (max-width: 768px) {
     .foto-index{
     height: 50%;
@@ -159,7 +203,8 @@
     width: 70%;
 }
 .descripcion-2{
-    margin:118% 6% 33% -88%;
+    margin: 108% 0% 5% -98%;
+    margin-top: 123%;
 }
 .titulo-mujer{
     margin-left: 102%;
@@ -171,9 +216,11 @@
 }
 .descripcion-3{
     margin:90% 6% 33% -72%;
+    margin-left: -85%;
 }
 .titulo-corbata{
-
+    margin-left: 16%;
 }
 
+}
 /* No CSS *//*# sourceMappingURL=miEstilo.css.map */
