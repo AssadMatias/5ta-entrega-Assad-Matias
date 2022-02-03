@@ -144,8 +144,31 @@
 }
 /* OBRAS */
 
-    
 
+.item-1{
+    background-image: url(http://127.0.0.1:5500/Fotos%20obras/cabeza%20de%20piedra%20negra.jpg);
+    background-size: cover;
+}
+
+.item-2{
+    background-image: url(http://127.0.0.1:5500/Fotos%20obras/pescador.jpg);
+    background-size: cover;
+}
+
+.item-3{
+    background-image: url(http://127.0.0.1:5500/Fotos%20obras/toro.jpg);
+    background-size: cover;
+    
+}
+.item-4{
+    background-image: url(http://127.0.0.1:5500/Fotos%20obras/corbate%20verde%20sin%20marco.jpg);
+    background-size: cover;
+}
+.tall{
+    grid-row: span 2;
+}
+
+    
 .fotos-galeria{
    width: 100%;
    gap: 5px;
@@ -173,9 +196,13 @@
     justify-content: center;
     border-radius: 4px;
     transition: transform 0.3s ease-in-out;
-    background-color: aquamarine;
+    background-color: #efedee;
     border: solid 1px white ;
     
+}
+.grid-item:hover{
+    opacity: 40%;
+    transition: 0.5s;
 }
 .grid-conteiner{
     display: grid;
@@ -220,6 +247,10 @@
 }
 .titulo-corbata{
     margin-left: 16%;
+}
+.grid-conteiner{
+    margin-left: 14%;
+
 }
 
 }
