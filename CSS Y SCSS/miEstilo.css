@@ -2,6 +2,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 
 }
 .body_formulario_titulo_datos{
@@ -143,7 +144,12 @@
     width: 89%;
 }
 /* OBRAS */
-
+.titulo-obras{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
 
 .item-1{
     background-image: url(../Fotos\ obras/cabezadepiedranegra.jpg);
@@ -193,7 +199,7 @@
     background-size: cover;
 }
 .item-11{
-    background-image: url(../Fotos\ obras/madrehijocomprimda.jpg);
+    background-image: url(../Fotos\ obras/madre-cargando-hijo.png);
     background-size: cover;
     background-position: auto;
 }
@@ -250,8 +256,10 @@
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) ;
     grid-auto-rows:minmax(200px, auto);
     gap: 20px;
-    padding: 20px;
+    padding: 29px;
     margin: 0% 20% 0% 20%;
+    margin-top: 4%;
+    margin-bottom: 7%;
     
 }
 
@@ -266,6 +274,9 @@
     display: block;
     
     
+}
+.titulo-obras {
+    margin: 4% 0% -1% -3% !important;
 }
     .descripcion{
     margin: 85% 0% 30% -80%
@@ -322,6 +333,9 @@
     .pescador{
     width: 25%;
 }
+.titulo-obras{
+    margin: 4% 0% -1% 33%
+}
 
 
     .grid-item{
@@ -344,7 +358,7 @@
     grid-auto-rows:minmax(200px, auto);
     gap: 20px;
     padding: 20px;
-    margin: 0% 20% 0% 20%;
+    margin: 10% 20% 0% 20%;
 }
 .grid-item:nth-child(7){
     grid-column: 1fr;
@@ -364,6 +378,10 @@
     .foto-index{
         height: 50%;
         width: 50%;
+    }
+    .titulo-obras{
+        margin-top: 11%;
+        margin-left: 24%;
     }
         .titulo-obrero{
         display: block;
