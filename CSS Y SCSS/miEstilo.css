@@ -148,6 +148,8 @@
 .item-1{
     background-image: url(../Fotos\ obras/cabezadepiedranegra.jpg);
     background-size: cover;
+    align-items: flex-end;
+    display: flex;
 }
 
 .item-2{
@@ -232,45 +234,109 @@
     padding: 20px;
     margin: 0% 20% 0% 20%;
 }
+
+
+
 @media  (max-width: 768px) {
     .foto-index{
     height: 50%;
     width: 50%;
 }
-.titulo-obrero{
+    .titulo-obrero{
     display: block;
     
     
 }
-.descripcion{
+    .descripcion{
     margin: 85% 0% 30% -80%
 }
-.foto-mujer{
+    .foto-mujer{
     height: 50%;
     width: 70%;
 }
-.descripcion-2{
+    .descripcion-2{
     margin: 108% 0% 5% -98%;
     margin-top: 123%;
 }
-.titulo-mujer{
+    .titulo-mujer{
     margin-left: 102%;
 }
-.foto-corbata{
+    .foto-corbata{
     height: 50%;
     width: 50%;
    
 }
-.descripcion-3{
+        .descripcion-3{
     margin:90% 6% 33% -72%;
     margin-left: -85%;
 }
-.titulo-corbata{
+    .titulo-corbata{
     margin-left: 16%;
 }
-.grid-conteiner{
-    margin-left: 14%;
+    .grid-conteiner{
+    margin-left: 10%;
 
+}
+    .tall{
+    grid-row: span 2;
+}
+
+
+    
+.fotos-galeria{
+   width: 100%;
+   gap: 5px;
+}
+
+.escultura-1{
+    width: 25%;
+    width: 14%;
+}
+    .estatua{
+    width: 25%;
+    margin: 0% 0% 0% 25%
+}
+    .toro{
+    width: 25%;
+}
+    .pescador{
+    width: 25%;
+}
+
+
+    .grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+    background-color: #efedee;
+    border: solid 1px white ;
+    
+}
+    .grid-item:hover{
+    opacity: 40%;
+    transition: 0.5s;
+}
+    .grid-conteiner{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) ;
+    grid-auto-rows:minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+    margin: 0% 20% 0% 20%;
+}
+.grid-item:nth-child(7){
+    grid-column: 1fr;
+}
+.tall{
+    grid-row: span 2;
+}
+.wide{
+    grid-column: span 1;
+}
+.tallx2{
+    grid-row: span 1;
 }
 
 }
