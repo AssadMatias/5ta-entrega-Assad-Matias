@@ -149,6 +149,7 @@
     display: flex;
     justify-content: center;
     margin-top: 3%;
+    background-color: grey;
 }
 
 .item-1{
@@ -586,6 +587,4 @@
         margin-left: -67%;
     }
     
-    
-    
-    /* No CSS *//*# sourceMappingURL=miEstilo.css.map */
+}
